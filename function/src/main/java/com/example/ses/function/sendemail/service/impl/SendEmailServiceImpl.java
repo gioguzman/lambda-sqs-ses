@@ -48,7 +48,7 @@ public class SendEmailServiceImpl implements SendEmailService {
                     .withSource(emailsender);
 
             client.sendTemplatedEmail(templatedEmailRequest);
-            log.info("Email sent!");
+            log.info("Email sent from " + emailrecipent + " to " + emailsender);
         } catch (Exception ex) {
             log.info("The email was not sent. Error message: "
                     + ex.getMessage());

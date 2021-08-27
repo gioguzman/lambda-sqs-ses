@@ -1,0 +1,36 @@
+HELP.md
+function/target/
+function/!.mvn/wrapper/maven-wrapper.jar
+function/!**/src/main/**/target/
+function/!**/src/test/**/target/
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+### STS ###
+function/.apt_generated
+function/.classpath
+function/.factorypath
+function/.project
+function/.settings
+function/.springBeans
+function/.sts4-cache
+
+### IntelliJ IDEA ###
+function/.idea
+function/*.iws
+function/*.iml
+function/*.ipr
+
+### NetBeans ###
+function//nbproject/private/
+function//nbbuild/
+function//dist/
+function//nbdist/
+function//.nb-gradle/
+function/build/
+!function/**/src/main/**/build/
+!function/**/src/test/**/build/
+
+### VS Code ###
+terraform/.vscode/
